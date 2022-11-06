@@ -1,13 +1,7 @@
-import { Perkenalan } from './component/Perkenalan';
-import { Tombol } from './component/Tombol';
+import Form from './component/Form';
 
 function App() {
-  return (
-    <div>
-      <Perkenalan nama="Anwar" />;
-      <Tombol />
-    </div>
-  );
+  return <Form />;
 }
 
 export default App;
